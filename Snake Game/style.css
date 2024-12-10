@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background:url(background.jpeg); /* Dark background for the whole page */
+    background:url(background.jpeg); 
     display: flex;
     justify-content: center;
     align-items: center;
