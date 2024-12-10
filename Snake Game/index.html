@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="700" height="600"></canvas>
+        <div class="score">
+            Score: <span id="score">0</span>
+        </div>
+    </div>
+
+    <!-- Modal for game over -->
+    <div id="gameOverModal" class="modal">
+        <div class="modal-content">
+            <h2>Game Over</h2>
+            <p>Your score: <span id="finalScore">0</span></p>
+            <button id="retryButton">Retry</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
