@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+.game-container {
+    text-align: center;
+   
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.choices-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.choices {
+    width: 45%;
+}
+
+.choice {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border: 2px solid #333;
+    background-color: #f4f4f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+    background-color: #ddd;
+}
+
+#comp-choice {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+}
+
+.comp-option {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    visibility: hidden; /* Initially hide all images */
+}
+
+.result {
+    margin-top: 20px;
+}
+
+#game-result {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.new-game-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-game-btn:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #user-choice img{
+            height: 60px;
+            width: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container" style="">
+        <h1>Rock Paper Scissors</h1>
+        
+        <div class="choices-container">
+            <!-- User's section -->
+            <div class="choices" id="user-choice">
+                <h2>Your Choice</h2>
+                <button class="choice" id="rock"> <img src="rockk.png" alt=""><br>Rock</button> <br>
+                <button class="choice" id="paper"><img src="pappper.png" alt=""><br>Paper</button><br>
+                <button class="choice" id="scissors"> <img src="sc.png" alt=""><br>Scissors</button>
+            </div>
+
+            <!-- Computer's section -->
+            <div class="choices" id="computer-choice">
+                <h2>Computer's Choice</h2>
+                <div id="comp-choice">
+                    <!-- All images for the computer's choice will be displayed -->
+                    <img class="comp-option" id="comp-rock" src="rockk.png" alt="Rock" />
+                    <img class="comp-option" id="comp-paper" src="pappper.png" alt="Paper" />
+                    <img class="comp-option" id="comp-scissors" src="sc.png" alt="Scissors" />
+                </div>
+            </div>
+        </div>
+
+        <div class="result">
+            <h3>Result:</h3>
+            <h2 id="game-result">Choose your move!</h2>
+        </div>
+        
+        <button id="new-game-btn" class="new-game-btn">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
